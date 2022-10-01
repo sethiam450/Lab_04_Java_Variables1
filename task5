@@ -1,0 +1,11 @@
+import java.text.DecimalFormat;
+
+public class ccbalance {
+
+    public static final DecimalFormat df = new DecimalFormat("0.00");
+
+    public static void main(String[] args) {
+        double creditCardBalance = 5000.000;
+        System.out.println("Your current credit card balance is $" + df.format(creditCardBalance) + ". Your balance after 1 month will be $" +  df.format(creditCardBalance * 1.17) + " and your balance after two months will be $" + df.format( creditCardBalance * 1.17 * 1.17) + ".");
+    }
+}
