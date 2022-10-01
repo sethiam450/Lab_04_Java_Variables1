@@ -1,0 +1,22 @@
+public class newvariables {
+
+    public static void main(String[] args) {
+        int numberOfKids = 4;
+        String raining = "Yes";
+        double gasPrice = 3.49;
+        int favoriteNumber = 11;
+        double shoeSize = 12;
+        String birthMonth = "November";
+        String fullName = "Serigne Saliou Thiam";
+
+        System.out.println("The number of kids my parents have is: " + numberOfKids);
+        System.out.println("Is it raining? Survey says: " + raining);
+        System.out.println("The price of a gallon of gas on average is: " + gasPrice);
+        System.out.println("My favorite number is: " + favoriteNumber);
+        System.out.println("My shoe size is: " + shoeSize);
+        System.out.println("My birth month is: " + birthMonth);
+        System.out.println("My full name is: " + fullName);
+
+
+
+    }
