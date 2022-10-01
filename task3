@@ -1,0 +1,12 @@
+
+import java.text.DecimalFormat;
+
+public class saletax {
+
+    public static final DecimalFormat df = new DecimalFormat("0.00");
+
+    public static void main(String[] args) {
+        double purchasePrice = 19.99;
+        System.out.println("The price of your item is $" + purchasePrice + " and with sales tax it's cost is $" + df.format(purchasePrice * 1.05) + ".");
+    }
+}
