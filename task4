@@ -1,0 +1,16 @@
+
+import java.text.DecimalFormat;
+
+public class maintenancecost {
+
+
+    public static final DecimalFormat df = new DecimalFormat("0.00");
+
+    public static void main(String[] args) {
+        double springCost = 160.80;
+        double summerCost = 250.13;
+        double fallCost = 200.12;
+        double winterCost = 275.0;
+        System.out.println("Your maintence cost for spring is $" + df.format(springCost)  + ", your maintence cost for summer is $" + df.format(summerCost) + ", your maintence cost for fall is $" + df.format(fallCost) + ", and your maintence cost for winter is $" + df.format(winterCost) + ". This makes your yearly maintence cost $" + df.format(springCost + summerCost + fallCost + winterCost) + ".");
+    }
+}
