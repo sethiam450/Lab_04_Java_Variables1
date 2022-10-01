@@ -1,0 +1,13 @@
+public class mdoulo {
+
+    public static void main(String[] args) {
+
+        int inputNumber = 6789;
+        if ((inputNumber % 2) == 0 ){
+            System.out.println("Your number, " + inputNumber + ", is even.");
+        }
+        else if ((inputNumber % 2) == 1) {
+            System.out.println("Your number, " + inputNumber + ", is odd.");
+        }
+    }
+}
